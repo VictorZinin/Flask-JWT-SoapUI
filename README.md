@@ -23,7 +23,7 @@ This project aims to demonstrate and refine API security testing techniques usin
 ## Languages / Frameworks Used
 - Python
 - Flask
-- JWT (JSON Web Tokens)
+- pyJWT (JSON Web Token implementation in Python)
 - SoapUI 
 
 ## Key Documents
@@ -33,7 +33,7 @@ This project aims to demonstrate and refine API security testing techniques usin
 - [pyJWT GitHub Repository](https://github.com/jpadilla/pyjwt)
 
 ## Getting Started
-To get started with this project, clone the repository and ensure all dependencies listed in `requirements.txt` are installed. Follow the setup instructions in instructions.md 
+To get started with this project, clone the repository and ensure all dependencies listed in `requirements.txt` are installed. Follow the setup instructions in `instructions.pdf`
 
 ## Usage
 Details on how to run tests using SoapUI are available in `TESTING.md`. This includes step-by-step instructions for setting up test suites, cases, and security scenarios within SoapUI.
