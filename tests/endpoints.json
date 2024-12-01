@@ -1,0 +1,9 @@
+{
+    "endpoints": [
+        {
+            "route": "/protected",
+            "method": "GET",
+            "tests": ["auth_required", "test_sql_injection", "test_xss"]
+        }
+    ]
+}

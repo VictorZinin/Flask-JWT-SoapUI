@@ -1,3 +1,4 @@
 jwt_tokens.txt
 .env
 SECRET_KEY.env
+*.pyc
