@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, make_response
 import re
 from markupsafe import escape
 import jwt
@@ -24,7 +24,8 @@ def protected_get():
 # Handles the SQL injection
 @app.route("/protected", methods=["POST"])
 def protected_post():
-    data = request.json
+    data = request.get_json(silent=True)
+    print(data)
 
     # If nothing was provided as input
     if data is None or "input" not in data or data["input"] == "":
